@@ -1,0 +1,16 @@
+.heading{
+    text-align: center;
+    background-color: gold;
+    color: white;
+    font-size: 20px !important;
+    box-shadow: 5px 5px 5px silver;
+    margin: 0%;
+    width: 100%;
+    padding-bottom: 7px;
+}
+
+#note{
+    font-size: 15px !important;
+    color: black;
+}
+

@@ -5,20 +5,20 @@ difference = 0;
 function setup(){
 
     video = createCapture(VIDEO);
-    video.size(450, 500);
+    video.size(550,500);
 
-    canvas = createCanvas(550, 550 );
-    canvas.position(560, 150);
+    canvas = createCanvas(550,550);
+    canvas.position(560,150);
 
-    poseNet = ml5.poseNet(video , modelLoded);
+    poseNet = ml5.poseNet(video , modelLoaded);
     poseNet.on('pose' , gotPoses);
 }
 
 function draw(){
     background('#969A97');
     fill('#90093');
-    stroke('#90093');
-    text("AKSHAD" , 570 , 156);
+    stroke('#ebd834');
+    text("AKSHAD" , 120 , 20);
     textSize(difference);
 }
 
